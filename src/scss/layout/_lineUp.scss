@@ -1,0 +1,331 @@
+@use 'base/mixin' as m;
+@use 'base/variables' as v;
+
+
+.lineUp {
+    padding: 5rem 0;
+    position: relative;
+    top: 700px;
+
+
+    h2 {
+        font-size: 5rem;
+        text-transform: uppercase;
+    }
+
+    h4,
+    h2,
+    p {
+        text-align: center;
+        color: v.$blanco;
+    }
+
+    .day {
+        margin-bottom: 2.5rem;
+        font-weight: v.$w-500;
+        font-size: 3rem;
+    }
+
+    @include m.tablet {
+        .forma-atom {
+            width: 250px;
+            height: 250px;
+            top: 150px;
+            position: absolute;
+        }
+
+        .forma-block-cross {
+            width: 250px;
+            height: 250px;
+            left: 200px;
+            top: 600px;
+            position: absolute;
+        }
+
+        .forma-block-matrix {
+            width: 250px;
+            height: 250px;
+            left: 120px;
+            top: 900px;
+            position: absolute;
+        }
+
+        .forma-block-slab {
+            width: 250px;
+            height: 250px;
+            top: 1250px;
+            position: absolute;
+        }
+
+        .forma-block-cylinder {
+            width: 250px;
+            height: 250px;
+            left: 500px;
+            position: absolute;
+        }
+
+        .forma-fractal-cube {
+            width: 250px;
+            height: 250px;
+            left: 500px;
+            top: 800px;
+            position: absolute;
+        }
+
+        .forma-fractal-cube2 {
+            width: 250px;
+            height: 250px;
+            top: 400px;
+            left: 350px;
+            position: absolute;
+        }
+
+        .forma-block-cage {
+            width: 250px;
+            height: 250px;
+            top: 1200px;
+            left: 500px;
+            position: absolute;
+        }
+    }
+
+    @include m.desktop {
+        .forma-atom {
+            width: 250px;
+            height: 250px;
+            top: 200px;
+            position: absolute;
+        }
+
+        .forma-block-cross {
+            width: 250px;
+            height: 250px;
+            left: 350px;
+            top: 400px;
+            position: absolute;
+        }
+
+        .forma-block-matrix {
+            width: 250px;
+            height: 250px;
+            left: 200px;
+            top: 800px;
+            position: absolute;
+        }
+
+        .forma-block-slab {
+            width: 250px;
+            height: 250px;
+            top: 1050px;
+            position: absolute;
+        }
+
+        .forma-block-cylinder {
+            width: 250px;
+            height: 250px;
+            left: 700px;
+            position: absolute;
+        }
+
+        .forma-fractal-cube {
+            width: 250px;
+            height: 250px;
+            left: 700px;
+            top: 800px;
+            position: absolute;
+        }
+
+        .forma-fractal-cube2 {
+            width: 250px;
+            height: 250px;
+            top: 500px;
+            left: 700px;
+            position: absolute;
+        }
+
+        .forma-block-cage {
+            width: 250px;
+            height: 250px;
+            top: 1200px;
+            left: 500px;
+            position: absolute;
+        }
+    }
+
+    @include m.desktopXL {
+        .forma-atom {
+            width: 300px;
+            height: 300px;
+            top: 100px;
+            position: absolute;
+        }
+
+        .forma-block-cross {
+            width: 300px;
+            height: 300px;
+            left: 500px;
+            top: 400px;
+            position: absolute;
+        }
+
+        .forma-block-matrix {
+            width: 300px;
+            height: 300px;
+            left: 300px;
+            top: 700px;
+            position: absolute;
+        }
+
+        .forma-block-slab {
+            width: 300px;
+            height: 300px;
+            top: 1050px;
+            position: absolute;
+        }
+
+        .forma-block-cylinder {
+            width: 300px;
+            height: 300px;
+            left: 900px;
+            position: absolute;
+        }
+
+        .forma-fractal-cube {
+            width: 300px;
+            height: 300px;
+            left: 700px;
+            top: 800px;
+            position: absolute;
+        }
+
+        .forma-fractal-cube2 {
+            width: 300px;
+            height: 300px;
+            top: 500px;
+            left: 1000px;
+            position: absolute;
+        }
+
+        .forma-block-cage {
+            width: 300px;
+            height: 300px;
+            top: 1200px;
+            left: 900px;
+            position: absolute;
+        }
+    }
+
+    @include m.phone {
+        top: 250px;
+
+        .forma-atom {
+            width: 150px;
+            height: 150px;
+            top: 200px;
+            position: absolute;
+        }
+
+        .forma-block-cross {
+            width: 150px;
+            height: 150px;
+            left: 200px;
+            top: 600px;
+            position: absolute;
+        }
+
+        .forma-block-matrix {
+            width: 150px;
+            height: 150px;
+            left: 20px;
+            top: 800px;
+            position: absolute;
+        }
+
+        .forma-block-slab {
+            width: 150px;
+            height: 150px;
+            left: 220px;
+            top: 1100px;
+            position: absolute;
+        }
+
+        .forma-block-cylinder {
+            width: 150px;
+            height: 150px;
+            left: 0px;
+            top: 1340px;
+            position: absolute;
+        }
+
+        .forma-fractal-cube {
+            width: 150px;
+            height: 150px;
+            left: 200px;
+            top: 1800px;
+            position: absolute;
+        }
+
+        .forma-fractal-cube2 {
+            width: 150px;
+            height: 150px;
+            top: 1950px;
+            position: absolute;
+        }
+
+        .forma-block-cage {
+            width: 150px;
+            height: 150px;
+            top: 2350px;
+            left: 100px;
+            position: absolute;
+        }
+    }
+}
+
+.stage-contenedor {
+    @include m.tablet {
+        @include m.grid(2, 5rem)
+    }
+
+    p {
+        color: v.$blanco;
+        font-weight: 700;
+        font-size: 3rem;
+    }
+
+    .stage {
+        width: 80%;
+        margin: 0 auto;
+        padding-top: 2rem;
+        box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.3);
+        background: rgba(255, 255, 255, .1);
+        -webkit-backdrop-filter: blur(5px);
+        backdrop-filter: blur(5px);
+        border-radius: 1rem;
+        border-top: 1px solid rgba(255, 255, 255, .5);
+        border-left: 1px solid rgba(255, 255, 255, .5);
+
+        @include m.phone {
+            margin-bottom: 2rem;
+        }
+    }
+
+
+}
+
+.cronograma {
+    @include m.reset-lyst;
+
+    li {
+        padding: 2.2rem;
+        font-weight: v.$w-700;
+        font-size: 1.8rem;
+
+        span {
+            font-weight: 400;
+            font-size: 1.5rem;
+        }
+    }
+
+
+}

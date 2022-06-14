@@ -1,0 +1,140 @@
+@use 'base/mixin' as m;
+@use 'base/variables' as v;
+
+.festival-info {
+    position: relative;
+    top: 700px;
+    background-color: v.$blanco;
+    border-radius: 10px;
+    padding: 5rem;
+    height: auto;
+    width: 95%;
+    margin: 0 auto;
+
+    @include m.phone {
+        top: 320px;
+        padding: 3rem;
+
+    }
+
+    @include m.tablet {
+        @include m.grid(2, .5rem);
+
+
+        .imagen {
+            margin: 0;
+            width: 100%;
+        }
+    }
+
+    .imagen {
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
+.festial-content {
+    padding: 1rem;
+
+    h2 {
+        font-size: 3rem;
+        text-align: center;
+        margin: 0;
+    }
+
+    .subtitle {
+        color: v.$rosa;
+        font-size: 2rem;
+        text-align: center;
+
+    }
+
+    p {
+        font-size: 1.5rem;
+    }
+
+    @include m.tablet {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+
+        h2 {
+            font-size: 3.5rem;
+            margin: 0;
+            margin-bottom: 2rem;
+
+
+        }
+
+        .subtitle {
+            color: v.$rosa;
+            font-size: 2rem;
+            margin: 0;
+            font-weight: v.$w-500;
+            margin-bottom: 2rem;
+
+        }
+
+        p {
+            font-size: 1.5rem;
+            margin: 0;
+        }
+    }
+
+    @include m.desktop {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        h2 {
+            font-size: 5.5rem;
+            margin: 0;
+            margin-bottom: 4rem;
+        }
+
+        .subtitle {
+            color: v.$rosa;
+            font-size: 2rem;
+            margin: 0;
+            font-weight: v.$w-500;
+            margin-bottom: 3rem;
+        }
+
+        p {
+            font-size: 1.5rem;
+            margin: 0;
+        }
+    }
+
+    @include m.desktopXL {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: left;
+
+        h2 {
+            font-size: 5.5rem;
+            margin: 0;
+            margin-bottom: 3rem;
+
+        }
+
+        .subtitle {
+            color: v.$rosa;
+            font-size: 2.8rem;
+            margin: 0;
+            font-weight: v.$w-500;
+            margin-bottom: 3rem;
+        }
+
+        p {
+            font-size: 1.5rem;
+            margin: 0;
+        }
+    }
+
+}
